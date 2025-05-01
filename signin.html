@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <div class="signin-container">
+    <center><img src="logo2.png" class="logo-img" alt="to-do list" width="150px"/></center>
+    <h2>Sign In</h2>
+    <form >
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Password:</label><br>
+      <input type="password" name="password" required><br><br>
+
+      <a href="#" class="forgot-password">Forgot Password?</a><br><br>
+     <p id="captcha"></p>
+     <button onclick="generateCaptcha()">Refresh CAPTCHA</button>
+     <input type="text" name="captcha" required><br><br>
+     <button onclick="window.location.href='home.html'">continue</button>
+     
+    
+     
+
+      
+      <p>By continuing, you agree to our <u>conditions</u> of use and <u>Privacy notice</u></p>
+    </form>
+  </div>
+</body>
+</html>

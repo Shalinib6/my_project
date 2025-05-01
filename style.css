@@ -1,0 +1,98 @@
+.logo-img{
+    padding-left:50px;
+    padding-top:100px;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:#FFFDF5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .signin-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .signin-container {
+    background-color:#FFFDF5;
+    max-width: 500px;
+    margin-top:500px;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .forgot-password {
+    font-size: 12px;
+    color: #888;
+    text-decoration: none;
+  }
+  .signin-btn:hover {
+    text-decoration: underline;
+    color: #4285f4;
+    background-color: #f0f0f0;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-link {
+    margin: 0 15px;
+    color: #0066c0;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-text {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #555;
+  }
+  .main-heading {
+    font-size: 32px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .tagline {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+ 
+  

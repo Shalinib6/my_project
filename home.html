@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+    <img src="logo2.png" class="logo-img" alt="to-do list" width="200px"/>
+  <div class="todo-container">
+    <center><h1>📝 To-Do List</h1>
+    <p style="font-family:  sans-serif">REMEMBER TO WIN</p>
+    <hr style="height: 5px; background-color: rgb(222, 170, 170);" />
+    <input type="text" id="taskInput" placeholder="Enter a new task..." />
+    <button onclick="addTask()">Add</button>
+    <button onclick="delTask()">Delete</button>
+    <ul id="taskList"></ul>
+    </center>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
